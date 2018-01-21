@@ -1,16 +1,16 @@
 import java.util.*;
 
-public class CompareRandoms {
+public class CompareRandomsInfinte {
 
     public static void main(String[] args) {
 
-        int firstNo;
+        int firstNo = 0;
         int secondNo;
 
         Random random1 = new Random();
         Random random2 = new Random();
 
-        for (int i = 0; i < 25; i++) {
+        while (firstNo <25){
             firstNo = random1.nextInt(25);
             secondNo = random2.nextInt(25);
 
