@@ -13,12 +13,12 @@ public class PrimeNo {
         int number = scanInput.nextInt();
         scanInput.close();
 
-        for (int i = 2; i <= number / 2; i++) {
+        for (int i = 2; number > i; i++) {
             rest = number % i;
             if (rest == 0) {
                 isPrime = false;
-                break;
-            }else{
+              break; //this is an unlabeled "break statement"
+            }else if (rest != 0){
                 isPrime = true;
             }
         }
