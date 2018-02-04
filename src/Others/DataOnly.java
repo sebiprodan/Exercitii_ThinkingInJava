@@ -1,3 +1,5 @@
+package Others;
+
 public class DataOnly {
 
     public static void main(String[] args) {
