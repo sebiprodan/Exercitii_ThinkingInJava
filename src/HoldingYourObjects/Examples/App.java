@@ -1,4 +1,4 @@
-package ObjectContainers;
+package HoldingYourObjects.Examples;
 
 import java.util.ArrayList;
 
@@ -30,4 +30,3 @@ public class App {
             System.out.println(c.id());
         }
     }
-    
